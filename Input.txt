@@ -1,0 +1,5 @@
+Callbacks are nothing but functions that take some time to produce a result.
+Usually these async callbacks (async short for asynchronous) are used for accessing values from databases, downloading images, reading files etc.
+As these take time to finish, we can neither proceed to next line because it might throw an error saying unavailable nor we can pause our program.
+So we need to store the result and call back when it is complete.
+ 
