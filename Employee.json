@@ -1,0 +1,18 @@
+{
+    "Employee1": {
+        "Name":"Divya",
+        "ID":1,
+        "Designation":"Developer"
+
+    },
+    "Employee2": {
+        "Name":"Priya",
+         "ID":2,
+        "Designation":"GRE"
+   },
+   "Employee3":{
+    "Name":"Janani",
+     "ID":3,
+    "Designation":"Marketing"
+   }
+}
