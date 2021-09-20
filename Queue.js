@@ -2,7 +2,7 @@ let async=require('async');
 var q = async.queue(function(task, callback) {
     console.log('Hello ' + task.name);
     callback();
-  }, 2);
+  });
   q.drain = function() {
     console.log('All items have been processed');
   };
