@@ -21,7 +21,7 @@ async.parallel([
   });
   
   // an example using an object instead of an array
-  async.parallel({
+  /*async.parallel({
     task1: function(callback) {
       setTimeout(function() {
         console.log('Task One');
@@ -37,4 +37,4 @@ async.parallel([
   }, function(err, results) {
     console.log(results);
     // results now equals to: { task1: 1, task2: 2 }
-  });
+  });*/
