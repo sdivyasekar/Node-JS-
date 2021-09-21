@@ -14,6 +14,7 @@ const xml = `<?xml version="1.0" encoding="UTF-8" ?>
 
 // convert XML to JSON
 xml2js.parseString(xml, (err, result) => {
+            console.log(result);
     if(err) {
         throw err;
     }
